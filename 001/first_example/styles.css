@@ -1,0 +1,21 @@
+/* styles.css */
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #afafaf;
+}
+
+#container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#p5canvas {
+    font-size: 40px; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
