@@ -17,7 +17,7 @@ function setup()
     var canvas = createCanvas(500, 500);
     canvas.parent("p5canvas");
 
-    console.log("numFrogs",,numFrogs);
+    console.log("numFrogs", numFrogs);
     console.log("frogLength", frogLength);
     console.log("numFrogsFull", numFrogsFull);
 
