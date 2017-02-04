@@ -29,6 +29,5 @@ function draw() {
         fill(100, 100, 100);
     }
 
-
     ellipse(mouseX, mouseY, 100, 100);
 }
