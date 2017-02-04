@@ -1,0 +1,24 @@
+/* styles.css */
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #888;
+    background-color: #222;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+#container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#p5canvas {
+    font-size: 40px; 
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
