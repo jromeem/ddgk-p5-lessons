@@ -29,10 +29,10 @@ function draw() {
     //     ellipse(175, 250, i*25, i*25);
     // }
 
-    // for (var i = 20; i > 0; i-=2)
-    // {
-    //     noStroke();
-    //     fill(255, 255-i*4, 255-i*4);
-    //     ellipse(525, 250, i*12, i*12);
-    // }
+    for (var i = 20; i > 0; i-=2)
+    {
+        noStroke();
+        fill(255, 255-i*4, 255-i*4);
+        ellipse(525, 250, i*12, i*12);
+    }
 }
