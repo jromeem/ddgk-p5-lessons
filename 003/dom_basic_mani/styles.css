@@ -7,9 +7,11 @@ body {
     padding: 0;
     width: 100%;
     color: #888;
-    background-color: #222;
-    font-weight: 100;
+    font-weight: 300;
+    text-align: center;
+    background-color: #f3f3f3;
     font-family: 'Lato';
+    overflow: hidden;
 }
 #container {
     display: table;
@@ -21,4 +23,7 @@ body {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+span {
+    font-size: 36px;
 }
