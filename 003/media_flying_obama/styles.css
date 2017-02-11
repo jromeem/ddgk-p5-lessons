@@ -17,8 +17,13 @@ body {
     width: 100%;
 }
 #p5canvas {
+    position: relative
     font-size: 40px; 
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+#p5canvas p {
+    position: absolute;
+    width: 100%;
 }
