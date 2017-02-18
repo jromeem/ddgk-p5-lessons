@@ -14,7 +14,7 @@ function draw() {
     fill(255, 100, 100);
     ellipse(ballX, height/2, 100, 100);
     ballX = ballX + speed;
-      if (ballX > width || ballX < 0) {
-    speed = speed * -1;
-  }
+    if (ballX > width || ballX < 0) {
+        speed = speed * -1;
+    }
 }

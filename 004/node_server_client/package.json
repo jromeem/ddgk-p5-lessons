@@ -1,0 +1,9 @@
+{
+  "name": "kite-sim",
+  "version": "0.0.1",
+  "description": "fly kites or whatev idc",
+  "dependencies": {
+    "express": "^4.14.1",
+    "socket.io": "^1.7.3"
+  }
+}
