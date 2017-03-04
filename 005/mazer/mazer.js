@@ -17,12 +17,17 @@ function draw() {
   // create the grid
   for (var i = 0; i < windowWidth/squareSize; i++) {
     for (var j = 0; j < windowHeight/squareSize; j++) {
-      // left corner
+      
+      // top left corner
       var xLeft = i*squareSize;
       var yLeft = j*squareSize;
-      // right corner
+
+      // bottom right corner
       var xRight = i*squareSize+squareSize;
       var yRight = j*squareSize+squareSize;
+
+      // top right same as (xRight, yLeft)
+      // bottom left same as (xLeft, yRight)
 
       // make a decision
       var pick = int(random(2));
