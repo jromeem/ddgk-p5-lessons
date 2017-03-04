@@ -1,21 +1,22 @@
 console.log('hello mazer!');
 
 var squareSize = 20;
+var lineWeight = 1;
 
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("p5canvas");
-
   noLoop();
   stroke(255);
-  strokeWeight(1);
+  strokeWeight(lineWeight);
 }
 
 function draw() {
   background(50, 100, 255);
+
+  // create the grid
   for (var i = 0; i < windowWidth/squareSize; i++) {
     for (var j = 0; j < windowHeight/squareSize; j++) {
-      
       // left corner
       var xLeft = i*squareSize;
       var yLeft = j*squareSize;
@@ -36,4 +37,5 @@ function draw() {
       }
     }
   }
+
 }
