@@ -5,13 +5,13 @@ var numFlorets = 1000;
 var scaleFloret = 15;
 var angleFloret = 137.501;
 var seedSize = 10;
-// var hsbRange = 100;
+var hsbRange = 100;
 
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("p5canvas");
   noStroke();
-  // colorMode(HSB, hsbRange);
+  colorMode(HSB, hsbRange);
 }
 
 function draw() {
@@ -26,10 +26,10 @@ function draw() {
     var posx = radius * cos(angle);
     var posy = radius * sin(angle);
 
-    // var colorVal = map(i, 0, numFlorets, 0, hsbRange);
-    // fill(colorVal, hsbRange, hsbRange);
+    var colorVal = map(i, 0, numFlorets, 0, hsbRange);
+    fill(colorVal, hsbRange, hsbRange);
 
-    fill(0);
+    // fill(0);
     ellipse(posx, posy, seedSize, seedSize);
   }
 
