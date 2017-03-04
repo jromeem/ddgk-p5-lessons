@@ -1,3 +1,4 @@
+// http://algorithmicbotany.org/papers/abop/abop-ch4.pdf
 console.log('hello phyllotaxis!');
 
 var numFlorets = 1000;
